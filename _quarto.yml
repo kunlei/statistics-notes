@@ -1,0 +1,32 @@
+project:
+  type: book
+
+book:
+  title: "Statistics Notes"
+  author: "Kunlei Lian"
+  date: "8/13/2023"
+  site-url: https://kunlei.github.io/statistics-notes/
+  # downloads: [pdf, epub]
+  sharing: [twitter]
+
+  sidebar:
+    style: docked
+    background: light
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    include-in-header: mathjax.html
+    html-math-method: mathjax
+  pdf:
+    documentclass: scrreprt
+
+
